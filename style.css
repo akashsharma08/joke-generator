@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background:radial-gradient(  rgb(192, 128, 248), rgb(118, 212, 244)) ;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgba(232, 229, 229, 0.493);
+    padding: 20px;
+    box-shadow: 10px 0px  40px  rgb(119, 119, 119);
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(99, 104, 112);
+}
+
+.heading {
+    font-size: 38px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px  5px 6px rgba(0, 0, 0, 0.315);
+    letter-spacing: 6px;
+}
+
+.joke {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    padding: 10px;
+    width: 30%;
+    cursor: pointer;
+    background-color: rgba(142, 145, 146, 0.297);
+    border-radius: 5px;
+    border: none;
+    transition: all ease 100ms;
+    color: rgb(103, 103, 103);
+    font-weight:800 ;
+    box-shadow: 3px 9px #666;
+}
+
+.btn:hover {
+    background-color: rgba(142, 141, 141, 0.436);
+}
+  .btn:active {
+    box-shadow: 1px 5px #666;
+    transform: translateY(4px);
+  }
